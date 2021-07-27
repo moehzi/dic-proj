@@ -206,6 +206,10 @@ body {
 	width: 50%;
 }
 
+.card h1 span {
+	font-size: 28px;
+}
+
 .switch {
 	position: relative;
 	background-color: #F7F7FB;
@@ -457,5 +461,51 @@ body {
 		width: 90%;
 		margin: auto;
 		text-align: center;
+	}
+
+	.head-title h1 {
+		font-size: 40px;
+		line-height: 50px;
+		width: 50%;
+	}
+
+	.row-card {
+		flex-direction: column;
+		gap: 18px;
+
+	}
+
+	.card {
+		width: 100%;
+		padding: 12px;
+	}
+
+	.card h5 {
+		font-size: 14px;
+	}
+
+	.card h1 {
+		font-size: 36px;
+		margin: 16px 0 20px 0;
+	}
+
+	.card ul {
+		font-size: 15px;
+		line-height: 32px;
+		margin-bottom: 24px;
+	}
+
+	.switch {
+		width: 50%;
+		font-size: 15px;
+	}
+
+	.switch button {
+		font-size: 14px;
+		padding: 8px 20px;
+	}
+
+	.card h1 span {
+		font-size: 20px;
 	}
 }
