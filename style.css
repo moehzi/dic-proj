@@ -103,8 +103,9 @@ body {
 /* Hero */
 .hero {
 	display: grid;
-	grid-template-columns: 0.42fr 0.58fr;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	align-items: center;
+	justify-items: center;
 }
 
 
@@ -125,7 +126,11 @@ body {
 }
 
 .right-item {
-	justify-self: end;
+	/* justify-self: center; */
+}
+
+.right-item img {
+	width: 100%;
 }
 
 
@@ -233,5 +238,29 @@ body {
 		transform: translateY(-8px) rotate(-45deg);
 		transition: all 0.3s ease-out;
 	}
+
+	main {
+		padding: 0 1rem;
+		overflow-x: hidden;
+	}
+
+	.left-item h1 {
+		font-size: 40px;
+		line-height: 56px;
+	}
+
+	.left-item p {
+		font-size: 15px;
+	}
+
+	.btn {
+		font-size: 15px;
+		padding: 10px 30px;
+	}
+
+	.right-item img {
+		margin-top: 2rem;
+	}
+
 
 }
