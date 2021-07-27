@@ -56,9 +56,23 @@ body {
 	color: var(--textcolor);
 }
 
+.nav-link:hover {
+	color: var(--black);
+	border-bottom: 2px solid var(--secondary);
+	transition: all 0.1s ease-out;
+}
+
 .active-link {
 	color: var(--black);
 	border-bottom: 2px solid var(--secondary);
+}
+
+.menu-toggle {
+	display: none;
+}
+
+.responsive-btn {
+	display: none;
 }
 
 .btn {
@@ -74,4 +88,94 @@ body {
 
 .btn-primary {
 	background-color: var(--primary);
+}
+
+.menu-toggle .bar {
+	width: 25px;
+	height: 3px;
+	margin: 5px auto;
+	transition: all 0.3s ease in ease-in-out;
+	background-color: var(--secondary);
+}
+
+@media screen and (max-width:768px) {
+	.container {
+		width: auto;
+	}
+
+	.nav-container {
+		position: relative;
+		padding: 1rem 0;
+	}
+
+	.logo {
+		padding: 1rem;
+	}
+
+
+	.nav-menu {
+		grid-template-columns: auto;
+		margin: 0;
+		width: 100%;
+		position: absolute;
+		top: 80px;
+		background-color: var(--secondary);
+
+		/* left: -100%; */
+		/* opacity: 0;
+		transition: all 0.5s ease; */
+	}
+
+	.btn-started {
+		display: none;
+	}
+
+	.nav-link:hover {
+		color: var(--black);
+		border: 1px solid var(--secondary);
+		background-color: var(--white);
+		transition: all 0.1s ease-out;
+	}
+
+	.nav-link.responsive-btn {
+		display: block;
+		background-color: var(--white);
+		border: 2px solid var(--secondary);
+		padding: 0.5rem 1rem;
+		color: black;
+	}
+
+	.nav-link.responsive-btn:hover {
+		background-color: var(--secondary);
+		color: var(--white);
+	}
+
+
+	.nav-link {
+		text-align: center;
+		line-height: 60px;
+		width: 100%;
+		display: table;
+		color: var(--white);
+		font-weight: 700;
+	}
+
+	.active-link {
+		border-bottom: none;
+	}
+
+	#mobile-menu {
+		padding: 1rem;
+	}
+
+	.menu-toggle {
+		display: block;
+	}
+
+	.menu-toggle .bar {
+		display: block;
+		background-color: var(--secondary);
+		cursor: pointer;
+	}
+
 }
