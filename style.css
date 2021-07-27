@@ -138,6 +138,19 @@ body {
 	line-height: 57px;
 }
 
+.hero-2 {
+	margin-top: 90px;
+}
+
+.hero-2 .left-item {
+	width: 86%;
+}
+
+.hero.hero-2 h1 {
+	font-size: 50px;
+	line-height: 57px;
+}
+
 .hero-1 {
 	margin-top: 144px;
 }
@@ -151,6 +164,12 @@ body {
 	justify-self: start;
 }
 
+.learnmore {
+	color: var(--secondary);
+	font-family: var(--hfont);
+	font-weight: 700;
+	font-size: 15;
+}
 
 @media screen and (max-width:768px) {
 	.container {
@@ -288,10 +307,25 @@ body {
 		order: 1;
 	}
 
+	.hero.hero-1 h1,
+	.hero.hero-2 h1 {
+		font-size: 40px;
+	}
+
 	.hero-1 .right-item img {
 		width: 80%;
 		margin-top: -2rem;
 	}
 
+	.hero-2 .right-item img {
+		width: 70%;
+
+	}
+
+	.hero-1 .left-item,
+	.hero-2 .left-item {
+		width: 100%;
+		justify-self: center;
+	}
 
 }
