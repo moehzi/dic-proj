@@ -535,4 +535,21 @@ aside {
 	.card h1 span {
 		font-size: 20px;
 	}
+
+	aside {
+		flex-direction: column;
+		margin: auto;
+		text-align: center;
+		margin-top: 98px;
+	}
+
+	.text-aside p {
+		margin: auto;
+		text-align: center;
+	}
+
+	.img {
+		margin: auto;
+		margin-top: 36px;
+	}
 }
