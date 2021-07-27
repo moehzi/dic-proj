@@ -171,6 +171,26 @@ body {
 	font-size: 15;
 }
 
+.benefits {
+	margin: 144px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	gap: 74px;
+}
+
+.text-benefits h4 {
+	font-size: 24px;
+	font-family: var(--hfont);
+	color: var(--black);
+	margin-bottom: 20px;
+}
+
+.text-benefits p {
+	font-size: 16px;
+}
+
 @media screen and (max-width:768px) {
 	.container {
 		width: auto;
@@ -327,5 +347,4 @@ body {
 		width: 100%;
 		justify-self: center;
 	}
-
 }
