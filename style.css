@@ -28,6 +28,7 @@ body {
 
 .nav-container {
 	width: 100%;
+	padding: 30px 0;
 }
 
 .navbar {
@@ -58,4 +59,19 @@ body {
 .active-link {
 	color: var(--black);
 	border-bottom: 2px solid var(--secondary);
+}
+
+.btn {
+	padding: 20px 60px;
+	font-size: 17px;
+	font-weight: 700;
+	border-radius: 10px;
+	color: var(--white);
+	text-decoration: none;
+	border: none;
+	font-family: var(--hfont);
+}
+
+.btn-primary {
+	background-color: var(--primary);
 }
