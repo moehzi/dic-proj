@@ -318,6 +318,41 @@ aside {
 	font-family: var(--textfont);
 }
 
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 90px 0 30px 0
+}
+
+footer .left-item p {
+	font-size: 18px;
+}
+
+footer .right-item {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 50%;
+}
+
+.right-item ul h4 {
+	font-size: 20px;
+	color: var(--black);
+	font-family: var(--hfont);
+	font-weight: 700;
+}
+
+.right-item ul li {
+	list-style: none;
+	font-size: 16px;
+}
+
+.right-item ul li a {
+	text-decoration: none;
+	color: var(--textcolor);
+}
+
 
 @media screen and (max-width:768px) {
 	.container {
