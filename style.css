@@ -347,4 +347,18 @@ body {
 		width: 100%;
 		justify-self: center;
 	}
+
+	.benefits {
+		flex-direction: column;
+		text-align: start;
+		gap: 70px;
+		justify-content: center;
+		margin-top: 60px;
+	}
+
+	.text-benefits {
+		width: 90%;
+		margin: auto;
+		text-align: center;
+	}
 }
