@@ -133,6 +133,24 @@ body {
 	width: 100%;
 }
 
+.hero.hero-1 h1 {
+	font-size: 50px;
+	line-height: 57px;
+}
+
+.hero-1 {
+	margin-top: 144px;
+}
+
+.hero-1 .right-item {
+	justify-self: start;
+}
+
+.hero-1 .left-item {
+	width: 86%;
+	justify-self: start;
+}
+
 
 @media screen and (max-width:768px) {
 	.container {
@@ -258,8 +276,21 @@ body {
 		padding: 10px 30px;
 	}
 
+	.right-item {
+		justify-self: center;
+	}
+
 	.right-item img {
-		margin-top: 2rem;
+		margin: 2rem 0;
+	}
+
+	.hero-1 .right-item {
+		order: 1;
+	}
+
+	.hero-1 .right-item img {
+		width: 80%;
+		margin-top: -2rem;
 	}
 
 
